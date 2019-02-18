@@ -1,11 +1,6 @@
-document
-  .querySelector('button')
-  .addEventListener('click', function() {
-    document.querySelector('button').style.backgroundColor = document.querySelector('input').value;
-    document.querySelector('label').style.backgroundColor = document.querySelector('input').value;
-
-    console.log('\
-      color has been changed \
-      to be color:' + document.querySelector('input').value + '\
-    ');
-  });
+document.querySelector('button').addEventListener('click', function () {
+  var NewItem = document.createElement("LI");
+  var textnode = document.createTextNode("Water");
+    NewItem.appendChild(textnode);
+    document.querySelector('ul').insertBefore(NewItem, document.querySelector('ul').childNodes[0])
+});
