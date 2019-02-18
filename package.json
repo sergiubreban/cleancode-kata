@@ -1,0 +1,25 @@
+{
+  "name": "cleancode-katta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "hahaha no"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergiubreban/cleancode-katta.git"
+  },
+  "keywords": [
+    "wili"
+  ],
+  "author": "wili",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergiubreban/cleancode-katta/issues"
+  },
+  "homepage": "https://github.com/sergiubreban/cleancode-katta#readme",
+  "dependencies": {
+    "rxjs": "^6.4.0"
+  }
+}
