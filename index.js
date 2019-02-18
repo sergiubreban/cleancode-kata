@@ -18,8 +18,8 @@ let WinIcecream = function (message) {
 
 CLEANROOM().then(function(res) {
   removegarbage(res).then(function(res){
-    WinIcecream(res).then(function(){
-      console.log('yeeeeey')
+    WinIcecream(res).then(function(res){
+      console.log('yeeeeey', res)
     })
   })
 })
