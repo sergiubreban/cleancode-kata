@@ -5,7 +5,7 @@ document
     document.querySelector('label').style.backgroundColor = document.querySelector('input').value;
 
     console.log('\
-      color has been changed n\
+      color has been changed \
       to be color:' + document.querySelector('input').value + '\
     ');
   });
